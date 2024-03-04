@@ -1,15 +1,13 @@
 // Home.js
 import React from 'react';
+import Hero from './Hero'; // Import the Hero component
 
 function Home() {
   return (
-    <div>
-      <header>
-        <h1>Home Page</h1>
-        <p>Welcome to the Home Page!</p>
-      </header>
+    <>
+      <Hero /> {/* Use the Hero component here */}
       {/* Your home content goes here */}
-    </div>
+    </>
   );
 }
 

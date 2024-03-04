@@ -1,0 +1,74 @@
+/* Hero.css */
+.hero-container {
+    display: flex;
+    flex-direction: row;
+    height: 380px;
+  }
+  
+  .column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    color: white;
+  }
+  
+  /* Apply styles to specific columns */
+  .column:nth-child(1),
+  .column:nth-child(4) {
+    flex: 0.8;
+    background: linear-gradient(to bottom, #495E57 79%, white 21%);
+  }
+  
+  .column:nth-child(2),
+  .column:nth-child(3) {
+    flex: 1.4;
+    background: linear-gradient(to bottom, #495E57 79%, white 21%);
+  }
+  
+  .column h1 {
+    color: #F4CE14;
+    font-size: 28pt;
+    margin-top: 5px;
+    margin-bottom: 0;
+    margin-left: 20px;
+  }
+  
+  .column h2 {
+    color: white;
+    font-size: 18pt;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 8px;
+    margin-left: 20px;
+  }
+  
+  .column p {
+    color: white;
+    font-size: 16pt;
+    margin: 0;
+    margin-left: 20px;
+  }
+  
+  .column img {
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+  }
+  
+  .reserve-button {
+    background-color: #F4CE14;
+    color: black;
+    font-size: 12pt;
+    font-weight: bold;
+    border: none;
+    border-radius: 15px;
+    padding: 12px 40px;
+    cursor: pointer;
+    align-self: flex-start;
+    margin-top: 10px;
+    margin-left: 20px;
+  }  
