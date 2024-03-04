@@ -1,0 +1,42 @@
+/* Specials.css */
+.specials-container {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .specials-header-and-button {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .specials-header {
+    font-size: 36px; /* Updated font size */
+    font-weight: bold;
+    margin-left: 260px; /* Adjusted right margin for the header */
+  }
+  
+  .specials-columns {
+    display: flex;
+  }
+  
+  .specials-column {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ccc; /* Optional: Add a border for better visualization */
+  }
+  
+  .specials-button {
+    background-color: #F4CE14;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 15px;
+    padding: 12px 40px;
+    cursor: pointer;
+    margin-left: 240px; /* Adjusted left margin for the button */
+  }  
