@@ -1,3 +1,4 @@
+// App.js
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Nav from './Nav';
@@ -7,6 +8,7 @@ import Menu from './Menu';
 import Reservations from './Reservations';
 import OrderOnline from './OrderOnline';
 import Login from './Login';
+import './App.css'; // Fix the import statement
 
 function App() {
   return (

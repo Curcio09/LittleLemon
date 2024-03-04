@@ -1,24 +1,44 @@
+/* Nav.css */
 nav {
-    text-align: center;
-  }
-  
-  ul {
+    height: 154px;
+    background-color: white; /* Set the background color to white */
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+}
+
+.logo-container {
+    margin-right: 80px; /* Adjust the spacing between logo and links */
+}
+
+.logo {
+    width: 186px; /* Set the width of your logo */
+    height: 73px; /* Set the height of your logo */
+    display: block;
+}
+
+ul {
     list-style: none;
     padding: 0;
-    display: flex;
-    justify-content: center;
-  }
-  
-  li {
-    margin: 0 10px; /* Adjust the margin as needed */
-  }
-  
-  a {
+    margin: 0;
+}
+
+li {
+    display: inline-block;
+    margin-right: 30px; /* Adjust the spacing between links */
+}
+
+li:last-child {
+    margin-right: 0;
+}
+
+a {
     text-decoration: none;
-    color: black; /* Adjust the color as needed */
+    color: black;
     font-weight: bold;
-  }
-  
-  a:hover {
-    color: #007BFF; /* Adjust the hover color as needed */
-  }  
+    font-size: 14px; /* Set the font size to 16 */
+}
+
+a:hover {
+    color: #007bff;
+}

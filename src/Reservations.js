@@ -1,3 +1,4 @@
+// Reservations.js
 import React from 'react';
 
 function Reservations() {
@@ -6,9 +7,6 @@ function Reservations() {
       <header>
         <h1>Reservations Page</h1>
       </header>
-      <nav>
-        {/* Include your navigation links here */}
-      </nav>
       {/* Your reservations content goes here */}
       <p>Make a reservation on the Reservations Page!</p>
     </div>

@@ -1,3 +1,4 @@
+// Home.js
 import React from 'react';
 
 function Home() {
@@ -6,9 +7,6 @@ function Home() {
       <header>
         <h1>Home Page</h1>
       </header>
-      <nav>
-        {/* Include your navigation links here */}
-      </nav>
       {/* Your home content goes here */}
       <p>Welcome to the Home Page!</p>
     </div>
