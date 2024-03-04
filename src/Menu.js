@@ -6,9 +6,9 @@ function Menu() {
     <div>
       <header>
         <h1>Menu Page</h1>
+        <p>Check out our delicious menu on the Menu Page!</p>
       </header>
-      {/* Your menu content goes here */}
-      <p>Check out our delicious menu on the Menu Page!</p>
+      { }
     </div>
   );
 }

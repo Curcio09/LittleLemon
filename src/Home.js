@@ -6,9 +6,9 @@ function Home() {
     <div>
       <header>
         <h1>Home Page</h1>
+        <p>Welcome to the Home Page!</p>
       </header>
       {/* Your home content goes here */}
-      <p>Welcome to the Home Page!</p>
     </div>
   );
 }

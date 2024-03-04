@@ -13,7 +13,7 @@ import './App.css'; // Fix the import statement
 function App() {
   return (
     <Router>
-      <div>
+      <>
         <Nav />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -23,7 +23,7 @@ function App() {
           <Route path="/order-online" element={<OrderOnline />} />
           <Route path="/login" element={<Login />} />
         </Routes>
-      </div>
+      </>
     </Router>
   );
 }

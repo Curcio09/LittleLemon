@@ -6,9 +6,9 @@ function OrderOnline() {
     <div>
       <header>
         <h1>Order Online Page</h1>
+        <p>Place your order online on the Order Online Page!</p>
       </header>
-      {/* Your order online content goes here */}
-      <p>Place your order online on the Order Online Page!</p>
+      { }
     </div>
   );
 }

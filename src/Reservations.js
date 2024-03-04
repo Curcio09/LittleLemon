@@ -6,9 +6,9 @@ function Reservations() {
     <div>
       <header>
         <h1>Reservations Page</h1>
+        <p>Make a reservation on the Reservations Page!</p>
       </header>
-      {/* Your reservations content goes here */}
-      <p>Make a reservation on the Reservations Page!</p>
+      { }
     </div>
   );
 }

@@ -6,9 +6,9 @@ function Login() {
     <div>
       <header>
         <h1>Login Page</h1>
+        <p>Login to your account on the Login Page!</p>
       </header>
-      {/* Your login content goes here */}
-      <p>Login to your account on the Login Page!</p>
+      { }
     </div>
   );
 }

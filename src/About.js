@@ -6,9 +6,9 @@ function About() {
     <div>
       <header>
         <h1>About Page</h1>
+        <p>Learn more about us on the About Page!</p>
       </header>
-      {/* Your about content goes here */}
-      <p>Learn more about us on the About Page!</p>
+      { }
     </div>
   );
 }

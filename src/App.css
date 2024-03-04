@@ -1,8 +1,15 @@
-
 /* App.css */
 header {
   background-color: #495E57;
   padding: 10px;
   text-align: center;
   color: white;
+}
+
+header h1 {
+  color: #F4CE14; /* Styling for h1 within header */
+}
+
+header p {
+  color: white; /* Styling for p within header */
 }
