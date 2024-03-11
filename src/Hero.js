@@ -1,7 +1,8 @@
 // Hero.js
 import React from 'react';
-import './Hero.css'; // Import your CSS file for Hero styling
-import restaurantfoodImage from './restauranfood.jpg'; // Corrected image file name
+import { Link } from 'react-router-dom';
+import './Hero.css';
+import restaurantfoodImage from './restauranfood.jpg';
 
 function Hero() {
   return (
@@ -17,7 +18,7 @@ function Hero() {
           recipes served with a modern<br />
           twist.
         </p>
-        <button className="reserve-button">Reserve a Table</button>
+        <Link to="/reservations" className="reserve-button">Reserve a Table</Link>
       </div>
       <div className="column">
         <img src={restaurantfoodImage} alt="Restaurant Food" />
