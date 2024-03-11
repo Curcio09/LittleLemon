@@ -8,7 +8,7 @@ import Menu from './Menu';
 import Reservations from './Reservations';
 import OrderOnline from './OrderOnline';
 import Login from './Login';
-import './App.css'; // Fix the import statement
+import './App.css';
 
 function App() {
   return (
