@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom'; // Import Link
 import './Specials.css';
 import SpecialCard from './SpecialCard';
 
-// Import your images
 import greekSaladImage from './greekSalad.jpg';
 import bruchettaImage from './bruchetta.svg';
 import lemonDessertImage from './lemonDessert.jpg';
@@ -48,7 +47,7 @@ function Specials() {
     <div className="specials-container">
       <div className="specials-header-and-button">
         <div className="specials-header">This week's specials!</div>
-        <Link to="/order-online" className="specials-button">Order Online</Link>
+        <Link to="/menu" className="specials-button">Order Online</Link>
       </div>
       <div className="specials-columns">
         {specialsData.map((special, index) => (
