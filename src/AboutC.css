@@ -1,0 +1,66 @@
+/* AboutC.css */
+.about-container {
+  display: flex;
+  flex-direction: row;
+  height: 380px;
+  background-color: white; /* Set background color to white */
+}
+
+.about-column {
+  flex: 1;
+}
+
+.about-column:nth-child(1),
+.about-column:nth-child(4) {
+  flex: 0.8;
+}
+
+.about-column:nth-child(2),
+.about-column:nth-child(3) {
+  flex: 1.4;
+}
+
+.about-column h1 {
+  color: #F4CE14;
+  font-size: 36pt;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+.about-column h2 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.about-column p {
+  font-size: 16pt;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.about-images {
+  position: relative;
+  flex: 2;
+}
+
+.about-image-left,
+.about-image-right {
+  position: absolute;
+  max-width: 50%;
+  height: auto;
+}
+
+.about-image-left {
+  left: 50px;
+  top: 160px; 
+  width: 300px;
+  height: 200px;
+}
+
+.about-image-right {
+  right: 30px;
+  top: 30px;
+  width: 300px;
+  height: 200px;
+}

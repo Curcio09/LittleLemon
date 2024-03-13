@@ -17,13 +17,13 @@
   .column:nth-child(1),
   .column:nth-child(4) {
     flex: 0.8;
-    background: linear-gradient(to bottom, #495E57 83%, white 17%);
+    background: linear-gradient(to bottom, #495E57 85%, white 15%);
   }
   
   .column:nth-child(2),
   .column:nth-child(3) {
     flex: 1.4;
-    background: linear-gradient(to bottom, #495E57 83%, white 17%);
+    background: linear-gradient(to bottom, #495E57 85%, white 15%);
   }
   
   .column h1 {
