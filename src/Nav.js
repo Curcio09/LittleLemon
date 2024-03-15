@@ -3,7 +3,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './Nav.css';
 
-import companyLogo from './Logo.svg'; // Adjust the path based on your project structure
+import companyLogo from './Logo.svg';
 
 function Nav() {
     return (

@@ -1,19 +1,19 @@
 /* Nav.css */
 nav {
     height: 154px;
-    background-color: white; /* Set the background color to white */
+    background-color: white;
     display: flex;
-    align-items: center; /* Center vertically */
-    justify-content: center; /* Center horizontally */
+    align-items: center;
+    justify-content: center;
 }
 
 .logo-container {
-    margin-right: 80px; /* Adjust the spacing between logo and links */
+    margin-right: 80px;
 }
 
 .logo {
-    width: 186px; /* Set the width of your logo */
-    height: 73px; /* Set the height of your logo */
+    width: 186px;
+    height: 73px;
     display: block;
 }
 
@@ -25,7 +25,7 @@ ul {
 
 li {
     display: inline-block;
-    margin-right: 30px; /* Adjust the spacing between links */
+    margin-right: 30px;
 }
 
 li:last-child {
@@ -36,7 +36,7 @@ a {
     text-decoration: none;
     color: black;
     font-weight: bold;
-    font-size: 16px; /* Set the font size to 16 */
+    font-size: 16px;
 }
 
 a:hover {

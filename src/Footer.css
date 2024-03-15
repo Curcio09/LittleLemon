@@ -1,0 +1,46 @@
+/* Footer.css */
+.footer-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 2fr 2fr 1fr;
+    background-color: white;
+    margin-top: 10px;
+    height: 150px;
+    padding: 20px;
+}
+
+.footer-container .contact,
+.footer-container .social-media {
+    margin: 0;
+    padding: 0;
+}
+
+.footer-container .contact p,
+.footer-container .social-media p {
+    margin: 0;
+}
+
+.footer-container .social-media a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.footer-container .social-media a:hover {
+    text-decoration: underline;
+}
+
+.footer-container h3 {
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+.footer-container a {
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.footer-container .logo-footer {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

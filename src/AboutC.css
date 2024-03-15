@@ -2,8 +2,8 @@
 .about-container {
   display: flex;
   flex-direction: row;
-  height: 380px;
-  background-color: white; /* Set background color to white */
+  height: 390px;
+  background-color: #F4CE14;
 }
 
 .about-column {
@@ -21,9 +21,9 @@
 }
 
 .about-column h1 {
-  color: #F4CE14;
+  color: black;
   font-size: 36pt;
-  margin-top: 20px;
+  margin-top: 30px;
   margin-bottom: 5px;
   text-align: left;
 }
