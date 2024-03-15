@@ -1,15 +1,14 @@
 // OrderOnline.js
 import React from 'react';
+import Footer from './Footer';
+import Specials from './Specials';
 
 function OrderOnline() {
   return (
-    <div>
-      <header>
-        <h1>Order Online Page</h1>
-        <p>Place your order online on the Order Online Page!</p>
-      </header>
-      { }
-    </div>
+    <>
+      <Specials />
+      <Footer />
+    </>
   );
 }
 

@@ -1,15 +1,16 @@
 // About.js
 import React from 'react';
+import AboutC from './AboutC';
+import Testimonials from './Testimonials';
+import Footer from './Footer';
 
 function About() {
   return (
-    <div>
-      <header>
-        <h1>About Page</h1>
-        <p>Learn more about us on the About Page!</p>
-      </header>
-      { }
-    </div>
+    <>
+      <AboutC/>
+      <Testimonials/>
+      <Footer/>
+    </>
   );
 }
 

@@ -1,15 +1,14 @@
 // Login.js
 import React from 'react';
+import LoginUser from './LoginUser';
+import Footer from './Footer';
 
 function Login() {
   return (
-    <div>
-      <header>
-        <h1>Login Page</h1>
-        <p>Login to your account on the Login Page!</p>
-      </header>
-      { }
-    </div>
+    <>
+      <LoginUser />
+      <Footer />
+    </>
   );
 }
 
