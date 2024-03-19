@@ -1,7 +1,8 @@
+// LoginUser.js
 import React, { useState } from 'react';
-import './LoginUser.css';
+import './LoginUser.css'; // Import CSS file
 
-function Login() {
+function LoginUser() {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
@@ -16,30 +17,38 @@ function Login() {
   };
 
   return (
-    <div className="login-container"> {/* Update class name here */}
-      <h2>Login</h2>
-      {error && <p style={{ color: 'red' }}>{error}</p>}
-      <form onSubmit={handleSubmit}>
+    <main className="login-container"> {/* Apply login-container class */}
+      <h2>Log In</h2> {/* Apply h2 styling from CSS */}
+      <form id="login-form" method="POST" onSubmit={handleSubmit}>
         <div>
-          <label>Username:</label>
+          <label htmlFor="login-username">Username:</label>
           <input
             type="text"
+            id="login-username"
+            name="username"
+            minLength="2"
+            required
             value={username}
             onChange={(e) => setUsername(e.target.value)}
           />
         </div>
         <div>
-          <label>Password:</label>
+          <label htmlFor="login-password">Password:</label>
           <input
             type="password"
+            id="login-password"
+            name="password"
+            minLength="2"
+            required
             value={password}
             onChange={(e) => setPassword(e.target.value)}
           />
         </div>
-        <button type="submit">Login</button>
+        {error && <p>{error}</p>} {/* Apply p styling from CSS */}
+        <button type="submit">Log In</button> {/* Apply button styling from CSS */}
       </form>
-    </div>
+    </main>
   );
 }
 
-export default Login;
+export default LoginUser;

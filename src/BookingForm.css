@@ -1,0 +1,50 @@
+/* ReservationForm.css */
+#reservation-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #F4CE14;
+  padding: 20px;
+}
+
+#reservation-form h1 {
+  color: black; /* Set the color of the h1 text to black */
+}
+
+.reservation-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.reservation-form label {
+  margin-bottom: 5px;
+  color: #495E57; /* Change label text color */
+}
+
+.reservation-form input[type="text"],
+.reservation-form input[type="tel"],
+.reservation-form input[type="email"],
+.reservation-form input[type="date"],
+.reservation-form input[type="number"],
+.reservation-form select {
+  width: 320px;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+#reservation-form button[type="submit"] {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #495E57; /* Change button background color */
+  color: #fff; /* Change button text color */
+  cursor: pointer;
+}
+
+#reservation-form button[type="submit"]:hover {
+  background-color: #2E8B57; /* Darker shade of green on hover */
+}
+

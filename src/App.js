@@ -8,6 +8,7 @@ import Menu from './Menu';
 import Reservations from './Reservations';
 import OrderOnline from './OrderOnline';
 import Login from './Login';
+import Main from './Main'; // Import the Main component
 import './App.css';
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
           <Route path="/reservations" element={<Reservations />} />
           <Route path="/order-online" element={<OrderOnline />} />
           <Route path="/login" element={<Login />} />
+          <Route path="/reservations" element={<Main />} />
         </Routes>
       </>
     </Router>
